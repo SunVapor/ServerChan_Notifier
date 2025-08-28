@@ -5,7 +5,7 @@
 ## 安装
 
 ```bash
-pip install git+https://github.com/yourusername/serverchan-notifier.git
+pip install git+https://github.com/SunVapor/ServerChan_Notifier.git
 ```
 
 ## 快速开始
