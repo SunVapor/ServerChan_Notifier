@@ -1,0 +1,7 @@
+README.md
+setup.py
+serverchan_notifier.egg-info/PKG-INFO
+serverchan_notifier.egg-info/SOURCES.txt
+serverchan_notifier.egg-info/dependency_links.txt
+serverchan_notifier.egg-info/requires.txt
+serverchan_notifier.egg-info/top_level.txt
