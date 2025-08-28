@@ -10,6 +10,8 @@ pip install git+https://github.com/SunVapor/ServerChan_Notifier.git
 
 ## 快速开始
 
+你首先需要在https://sct.ftqq.com/上获取SENDKEY
+
 ```python
 from serverchan_notifier import ServerChanNotifier
 
@@ -19,7 +21,7 @@ notifier = ServerChanNotifier("你的SENDKEY")
 # 发送简单通知
 notifier.send("任务完成", "Python脚本执行成功！")
 
-# 使用模板方法
+# 使用模板方法，添加任务用时
 notifier.notify_success("数据处理任务", 120.5, "处理了1000条数据")
 
 # 异步发送（不阻塞主线程）
